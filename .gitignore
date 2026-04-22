@@ -1,0 +1,67 @@
+# ─── Environment / Secrets ───────────────────────────────────────────────────
+.env
+.env.local
+.env.production
+.env.development
+.env.staging
+*.env
+
+# ─── Node.js ─────────────────────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn
+
+# ─── Next.js (website) ───────────────────────────────────────────────────────
+website/.next/
+website/out/
+
+# ─── Vite / React Build (admin-panel) ────────────────────────────────────────
+admin-panel/dist/
+
+# ─── Backend logs ────────────────────────────────────────────────────────────
+backend/logs/
+*.log
+
+# ─── Flutter / Dart ──────────────────────────────────────────────────────────
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+customer-app/build/
+worker-app/build/
+customer-app/android/.gradle/
+worker-app/android/.gradle/
+customer-app/android/app/debug/
+worker-app/android/app/debug/
+customer-app/android/app/profile/
+worker-app/android/app/profile/
+customer-app/android/app/release/
+worker-app/android/app/release/
+*.g.dart
+*.freezed.dart
+
+# ─── SSL Certificates (managed by Certbot on server) ────────────────────────
+nginx/ssl/
+nginx/certbot/
+
+# ─── Docker ──────────────────────────────────────────────────────────────────
+.docker/
+
+# ─── OS ──────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── IDE ─────────────────────────────────────────────────────────────────────
+.idea/
+.vscode/settings.json
+*.swp
+*.swo
+
+# ─── Uploads / Media ─────────────────────────────────────────────────────────
+backend/uploads/

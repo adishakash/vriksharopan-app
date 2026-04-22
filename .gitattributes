@@ -1,0 +1,9 @@
+# Normalize line endings
+* text=auto
+
+# Shell scripts must always use LF (required on Linux servers)
+*.sh text eol=lf
+
+# Docker files
+Dockerfile text eol=lf
+*.conf text eol=lf
